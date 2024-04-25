@@ -1,0 +1,44 @@
+body{
+    background: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+h2{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.imagem{
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+h4{
+    color: #ff2e31;
+    font-size: 0.8em;
+    position: relative;
+    top: -10px;
+    left: 170px;
+    font-weight: 700px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -90px;
+    left: 700px;
+    margin: 40px;
+}
+
+button{
+    position: relative;
+    top: -90px;
+    left: 750px;
+}
