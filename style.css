@@ -3,42 +3,151 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 24px;
+    overflow-x: hidden;
+    margin: 0 auto;
 }
 
 h2{
     color: white;
     position: relative;
     top: 30px;
-    left: 100px;
+    left: 200px;
+    z-index: 2;
 }
 
 .imagem{
-    width: 500px;
+    width: 600px;
     position: absolute;
-    top: 200px;
+    top: -40px;
     left: 100px;
+    border-radius: 25px;
+    border: 0.5px solid white;
 }
 
-h4{
-    color: #ff2e31;
+#main > h4{
+    color: #9F100B;
     font-size: 0.8em;
     position: relative;
-    top: -10px;
-    left: 170px;
+    top: -20px;
+    left: 270px;
     font-weight: 700px;
+    z-index: 2;
 }
 
 a{
     text-decoration: none;
     color: white;
     position: relative;
-    top: -90px;
-    left: 700px;
+    top: -150px;
+    left: 1100px;
     margin: 40px;
+    z-index: 2;
 }
 
 button{
     position: relative;
     top: -90px;
     left: 750px;
+}
+
+.btn{
+    border: 2px solid red;
+    background: #9F100B;
+    border-radius: 25px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+h3{
+    text-align: center;
+    position: relative;
+    top: -70px;
+    z-index: 2;
+    
+}
+
+.background-block{
+    background-color: #9F100B;
+    border: .5px solid white;
+    overflow: visible;
+    padding: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.sobre{
+    position: relative;
+    top: -770px;
+    left: 300px;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 500px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+hr{
+    position: relative;
+    top: -1100px;
+}
+
+.conheca > h2{
+    position: relative;
+    top: -1100px;
+}
+
+.conheca > img{
+    position: relative;
+    top: -1050px;
+    left: 250px;
+    border-radius: 25px;
+    width: 600px;
+}
+
+.conheca > h4{
+    position: relative;
+    top: -1100px;
+    left: 400px;
+    font-size: 40px;
+}
+
+.conheca > p{
+    position: relative;
+    top: -1140px;
+    left: 300px;
+    font-size: 20px;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 500px;
+}
+
+.conheca1 > img{
+    position: relative;
+    top: -1798px;
+    left: 1100px;
+    border-radius: 25px;
+    width: 600px;
+}
+
+.conheca1 > h4{
+    position: relative;
+    top: -1845px;
+    left: 1250px;
+    font-size: 40px;
+}
+
+.conheca1 > p{
+    position: relative;
+    top: -1885px;
+    left: 1150px;
+    font-size: 20px;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 500px;
 }
