@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+
+.header > h2{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    font-size: 45px;
+}
+
+.header > h4{
+    color: #9F100B;
+    position: relative;
+    top: -30px;
+    left: 300px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navegar{
+    color: white;
+    position: relative;
+    top: -100px;
+    left: 1100px;
+    font-size: 24px;
+    margin: 40px;
+}
+
+.btn{
+    border: 2px solid red;
+    background: #9F100B;
+    border-radius: 25px;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -100px;
+    left: 1150px;
+    font-size: 24px;
+    border: 1px solid white;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.abaixo{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+#pizzas{
+    background-color: #9F100B;
+    margin: 100px;
+    position: relative;
+    top: -100px;
+    border-radius: 25px;
+    background-image: url(https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JleSUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D);
+}
+
+#pizzas > h3{
+    position: relative;
+    top: 70px;
+    left: 200px;
+}
+
+.bresa{
+    width: 500px;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.especial h4 {
+    position: relative;
+    top: -230px;
+    left: 700px;
+}
+
+.especial p {
+    max-width: 900px;
+    word-wrap: break-word;
+    position: relative;
+    top: -240px;
+    left: 700px;
+}
+
+hr{
+    border: 2px solid gray;
+    width: 1600px;
+}
+
+.hr1{
+    position: relative;
+    top: -300px;
+    size: 20px;
+}
+
+.especial hr {
+    border: 2px solid white;
+    width: 860px;
+    position: relative;
+    top: -250px;
+    left: 280px;
+}
+
+.hr2{
+    position: relative;
+    top: -190px;
+}
+
+.frango h4{
+    position: relative;
+    top: -110px;
+    left: 700px;
+}
+
+.frango img{
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 500px;
+    position: relative;
+    top: -250px;
+    left: 130px;
+}
+
+.frango .hr3{
+    border: 2px solid white;
+    width: 860px;
+    position: relative;
+    top:-130px;
+    left: 280px;
+}
+
+.frango p{
+    max-width: 900px;
+    word-wrap: break-word;
+    position: relative;
+    top: -480px;
+    left: 700px;
+}
+
+.frango hr{
+    position: relative;
+    top: -380px;
+}
+
+.camarao h4{
+    position: relative;
+    top: -260px;
+    left: 700px;
+}
+
+.camarao img{
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 500px;
+    position: relative;
+    top: -420px;
+    left: 130px;
+}
+
+.camarao p{
+    max-width: 900px;
+    word-wrap: break-word;
+    position: relative;
+    top: -630px;
+    left: 700px;
+}
+
+.hr5{
+    border: 2px solid white;
+    width: 860px;
+    position: relative;
+    top: -830px;
+    left: 280px;
+}
+
+h1{
+    position: relative;
+    top: -600px;
+    left: 800px;
+    font-size: 60px
+}

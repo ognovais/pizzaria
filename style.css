@@ -15,6 +15,10 @@ h2{
     z-index: 2;
 }
 
+.logo > h2{
+    font-size: 45px;
+}
+
 .imagem{
     width: 600px;
     position: absolute;
@@ -60,6 +64,11 @@ button{
 
 .btn:hover{
     transform: scale(1.1);
+}
+
+.titulo {
+    background-color: #3AAB08;
+    height: 40px;
 }
 
 h3{
@@ -150,4 +159,51 @@ hr{
     text-align: center;
     overflow-wrap: break-word;
     max-width: 500px;
+}
+
+/*CARDÁPIO*/
+.header > h4{
+    color: #9F100B;
+    font-size: 0.8em;
+    position: relative;
+    top: -20px;
+    left: 270px;
+    font-weight: 700px;
+    z-index: 2;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn{
+    border: 2px solid white;
+}
+
+.abaixo{
+    background-color: #9F100B;
+    width: 1024px;
+}
+
+#pizzas > h3{
+    position: relative;
+    top: 70px;
+    left: -640px;
+}
+
+#pizzas > img{
+    position: relative;
+    top: 60px;
+    left: 200px;
+    border-radius: 25px;
+    width: 400px;
+    border: 1px solid white;
+}
+
+#pizzas > h4{
+    position: relative;
+    top: -220px;
+    left: 640px;
+}
+
+.especial1{
+    font-size: 200px;
 }
